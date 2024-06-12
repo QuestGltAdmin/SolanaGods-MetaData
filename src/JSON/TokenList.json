@@ -1,0 +1,62 @@
+{
+  "logoURI": "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
+  "tokens": [
+    {
+      "name": "Binance",
+      "symbol": "BNB",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 97,
+      "decimals": 18,
+      "logos": "assets/Compress-img/bnb.webp"
+    },
+    {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 11155111,
+      "decimals": 18,
+      "logos": "assets/Compress-img/etho.webp"
+    },
+    {
+      "name": "Polygon Matic",
+      "symbol": "MATIC",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 80001,
+      "decimals": 18,
+      "logos": "assets/Compress-img/matic.webp"
+    },
+    {
+      "name": "Solana",
+      "symbol": "SOL",
+      "address": "0x0000000000000000000000000000000000000000",
+      "chainId": 0,
+      "decimals": 9,
+      "logos": "assets/Compress-img/solanaLogoMark.webp"
+    },
+    {
+      "name": "USDT ETH",
+      "symbol": "USDT (ETH)",
+      "address": "0x09ede2f06a2a3be761fd016f6afaa461e95addc9",
+      "chainId": 11155111,
+      "decimals": 6,
+      "logos": "assets/Compress-img/usdt.webp"
+    },
+    {
+      "name": "USDT BNB",
+      "symbol": "USDT (BNB)",
+      "address": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+
+      "chainId": 97,
+      "decimals": 18,
+      "logos": "assets/Compress-img/usdt.webp"
+    },
+    {
+      "name": "USDT MATIC",
+      "address": "0x83aD7BBC3961b2b2e80C7c1A5E803ef171B966B8",
+      "symbol": "USDT (MATIC)",
+      "decimals": 6,
+      "chainId": 80001,
+      "logos": "assets/Compress-img/usdt.webp"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<ifmodule mod_rewrite.c>
+    <ifmodule mod_negotiation.c>
+        Options -MultiViews
+    </ifmodule>
+
+     <IfModule mod_headers.c>
+      Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+      Header set X-Frame-Options "DENY"
+      Header set X-XSS-Protection "1; mode=block"
+      Header set X-Content-Type-Options "nosniff"
+      Header set Referrer-Policy "origin"
+      Header set Referrer "origin"
+      Header always set Permissions-Policy "interest-cohort=()"
+      Header always set Content-Security-Policy "default-src wss: https:; img-src https: data:; script-src https: 'unsafe-inline'; style-src https: 'unsafe-inline';"
+      Header add Cross-Origin-Embedder-Policy "credentialless"
+      Header add Cross-Origin-Opener-Policy "origin"
+      Header add Cross-Origin-Resource-Policy "origin"
+    </IfModule>
+     
+    RewriteEngine On
+        # If an existing asset or directory is requested go to it as it is
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+        RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+        RewriteRule ^ - [L]
+        # If the requested resource doesn't exist, use index.html
+    RewriteRule ^ /index.html
+ 
+</ifmodule>

@@ -1,0 +1,54 @@
+{
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.webp",
+    "tokens": [
+      {
+        "name": "Binance",
+        "symbol": "BNB",
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 56,
+        "decimals": 18,
+        "logos": "assets/Compress-img/bnb.webp"
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 1,
+        "decimals": 18,
+        "logos": "assets/Compress-img/etho.webp"
+      },
+      {
+        "name": "Polygon Matic",
+        "symbol": "MATIC",
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 137,
+        "decimals": 18,
+        "logos": "assets/Compress-img/matic.webp"
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "address": "0x0000000000000000000000000000000000000000",
+        "chainId": 0,
+        "decimals": 9,
+        "logos": "assets/Compress-img/solanaLogoMark.webp"
+      },
+      {
+        "name": "USDT BNB",
+        "symbol": "USDT (BNB)",
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "chainId": 56,
+        "decimals": 18,
+        "logos": "assets/Compress-img/usdt.webp"
+      },
+      {
+        "name": "USDT Tron",
+        "symbol": "USDT (TRON)",
+        "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+        "chainId": 1001,
+        "decimals": 6,
+        "logos": "assets/Compress-img/usdt.webp"
+      }
+    ]
+  }
+  
